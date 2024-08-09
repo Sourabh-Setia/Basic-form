@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Grey+Qo&family=Kalam:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    }
+body {
+    min-height: 100%;
+    }
+.outr{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(#e9c46a,#f4a261);
+    border: 1px solid;
+}
+.inner{
+    width: 37vw;
+    margin-left: 30%;
+    margin-top: 4%;
+    height: 75vh;
+    /* border: 1px solid green; */
+    background: linear-gradient(90deg , #bde0fe , #faedcd);
+    border-radius: 25px;
+}
+
+.inner h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Kalam", cursive;
+    color: #25a18e;
+}
+
+#port{
+    text-align: center;
+    font-family: "Grey Qo", cursive;
+    font-size: 25px;
+}
+
+.foram{
+    display: block;
+    position: relative;
+    max-width: 90%;
+    justify-content:space-between;
+    text-align: justify;
+    flex-wrap: wrap;
+
+}
+
+label{
+    font-size: 15px;
+}
+ 
+input{
+    size: 12;
+}
+
+.elements{
+    /* border: 1px solid black; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.in-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    line-height: 25px;
+    margin: 0 10px;
+    flex: 1;
+    /* border: 1px solid black; */
+}
+
+.in-details input{
+    margin-top:17px ;
+}
+
+#btnn{
+    margin-top:17px ;
+
+}
+.in-details p{
+    margin-top:18px ;
+}
